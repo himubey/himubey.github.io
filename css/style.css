@@ -3,7 +3,10 @@
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#212126;--fg:#e8e6e1;--muted:#a09fa6;--line:#33333a;--accent:#e39a6c}}
 *{box-sizing:border-box}
 html{color-scheme:light dark}
-body{margin:0;background:var(--bg);color:var(--fg);font:18px/1.65 Charter,"Bitstream Charter","Sitka Text",Cambria,"Noto Serif",Georgia,serif}
+@font-face{font-family:Outfit;src:url(../fonts/outfit.woff2) format("woff2");font-weight:100 900;font-display:swap}
+@font-face{font-family:"Google Sans Code";src:url(../fonts/google-sans-code.woff2) format("woff2");font-weight:300 800;font-display:swap}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 Outfit,system-ui,sans-serif}
+h2,time,small,#theme{font-family:"Google Sans Code",ui-monospace,monospace}
 a{color:var(--accent);text-decoration:none}
 a:hover{text-decoration:underline}
 .wrap{max-width:680px;margin:0 auto;padding:0 20px}
