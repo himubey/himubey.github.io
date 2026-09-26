@@ -1,80 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Himanshu Dubey</title>
-  <link rel="stylesheet" href="css/style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Himanshu Dubey</title>
+<meta name="description" content="Himanshu Dubey — full-stack engineer, formerly fixing Macs. Now building products people use every day, and writing about the lessons along the way.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+<script>try{var t=localStorage.theme;if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
-
-<header class="site-header">
-  <div class="container header-flex">
-    <h1 class="logo">Himanshu Dubey</h1>
-    <nav>
-      <a href="index.html" class="active">Home</a>
-      <a href="#projects">Projects</a>
-      <a href="blog.html">Blog</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
+<div class="wrap">
+<header>
+  <a class="name" href="index.html">Himanshu Dubey</a>
+  <nav>
+    <a href="index.html" aria-current="page">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="#contact">Contact</a>
+    <button id="theme" type="button" aria-label="Toggle dark mode">◐</button>
+  </nav>
 </header>
 
-<main class="container">
-  <section class="intro">
-    <h2>Frontend Developer / Full-Stack Learner</h2>
-    <p>
-      I’m a frontend developer passionate about building clean, accessible user
-      experiences and documenting my journey through writing and content.
-    </p>
-  </section>
- <div class="intro-photo">
-    <img src="images/himanshudubey.webp" alt="Himanshu Dubey">
-  </div>
-  <section class="journey">
-    <h3>My Journey</h3>
-    <p>
-      My journey into tech began in Uttarakhand, India, where I worked as a Macintosh
-      technician at iPrime. That role taught me structured problem-solving and
-      communication.
-    </p>
-    <p>
-      In 2023, I transitioned into web development—starting with HTML, CSS, and
-      JavaScript. Today, I specialize in React and Next.js, while actively learning
-      full-stack development.
-    </p>
+<main>
+  <section class="hero">
+    <img src="images/himanshudubey.webp" alt="Himanshu Dubey" width="84" height="84">
+    <div>
+      <h1>Hey, I'm Himanshu Dubey.</h1>
+      <p class="muted">Full-stack engineer, formerly fixing Macs. Now I build products people use every day, and write about the lessons along the way.</p>
+    </div>
   </section>
 
-  <section id="projects">
-    <h3>Featured Projects</h3>
+  <h2>Learning now</h2>
+  <ul class="list">
+    <li><span>Backend engineering with Node.js, Go and Python</span></li>
+    <li><span>System design and database management</span></li>
+    <li><span>AI/ML for geospatial data</span></li>
+  </ul>
 
-    <article class="project">
-      <h4>Rupzo</h4>
-      <p>
-        Business management platform for freelancers and small businesses.
-      </p>
-      <a href="https://rupzo.in/" target="_blank">Visit →</a>
-    </article>
+  <h2>Certifications</h2>
+  <ul class="list">
+    <li><span><a href="https://isrolms.iirs.gov.in/mod/customcert/verify_certificate.php?code=g0F1xkOUwW">AI/ML for Geodata Analysis</a> — IIRS, ISRO</span><small>Sep 2026</small></li>
+  </ul>
 
-    <article class="project">
-      <h4>Hmachaar</h4>
-      <p>
-        Full-stack e-commerce platform for authentic Indian pickles.
-      </p>
-      <a href="https://www.hmachaar.in/" target="_blank">Visit →</a>
-    </article>
-  </section>
+  <h2>Latest writing</h2>
+  <ul class="list">
+    <li><a href="https://www.himubey.in/blog/http-head-of-line-blocking">HTTP/3 and QUIC: Demystifying the Shift from HTTP/2 and TCP</a><time datetime="2026-08-20">Aug 20, 2026</time></li>
+    <li><a href="https://www.himubey.in/blog/javascript-temporal-api-replaces-date">JavaScript Temporal API: The End of the Broken Date Object</a><time datetime="2026-03-18">Mar 18, 2026</time></li>
+    <li><a href="https://www.himubey.in/blog/diary-plus-technical-deep-dive">My Notes App for a Forgotten World: Building for Feature Phones</a><time datetime="2026-01-15">Jan 15, 2026</time></li>
+  </ul>
+  <p style="margin-top:12px"><a href="blog.html">All posts →</a></p>
 
-  <section id="contact">
-    <h3>Get in Touch</h3>
-    <p>Email: <a href="mailto:hello@himubey.in">hello@himubey.in</a></p>
-    <p>YouTube: <a href="https://youtube.com/@himubeydev" target="_blank">@himubeydev</a></p>
-  </section>
+  <h2>Projects</h2>
+  <ul class="list">
+    <li><span><a href="https://rupzo.in/">Rupzo</a> — business management platform for freelancers and small businesses.</span><small>Next.js</small></li>
+    <li><span><a href="https://www.hmachaar.in/">Hmachaar</a> — e-commerce store for authentic Indian pickles.</span><small>React</small></li>
+    <li><span>Krak — full-stack mock test platform for NEET &amp; JEE prep.</span><small>Full-stack</small></li>
+    <li><span><a href="https://github.com/himubey/microblog">Microblog</a> — a fast, simple place to share short updates.</span><small>Astro</small></li>
+    <li><span><a href="https://zidoc.online">ZIDoc</a> — fast file tools for images, PDFs and text.</span><small>Web</small></li>
+  </ul>
+
+  <h2>Open source</h2>
+  <ul class="list">
+    <li><span><a href="https://github.com/nellavio/nellavio">Nellavio</a> — Next.js dashboard starter with auth, i18n and RBAC.</span><small>TypeScript</small></li>
+  </ul>
+
+  <h2>Experience</h2>
+  <ul class="list">
+    <li><span>Full Stack Engineer, Emergingevera<br><span class="muted">Building Krak, a NEET/JEE mock test platform — Next.js, Express, PostgreSQL, RBAC, Razorpay.</span></span><small>Sep 2025 – now</small></li>
+    <li><span>Frontend Developer &amp; Content Manager, Bansal Classes</span><small>Apr – Sep 2025</small></li>
+    <li><span>Full-Stack Developer, Webwheel Technologies<br><span class="muted">Frontend and backend features with React, Next.js and Node.js.</span></span><small>Jul 2023 – Aug 2025</small></li>
+    <li><span>Frontend Developer Intern, Webwheel Technologies</span><small>Apr – Jun 2023</small></li>
+    <li><span>Macintosh Technician, Apple Authorized Reseller</span><small>Apr 2020 – Oct 2022</small></li>
+  </ul>
+
+  <h2 id="contact">Contact</h2>
+  <p>Say hi at <a href="mailto:himubey.dev@gmail.com">himubey.dev@gmail.com</a>.</p>
 </main>
 
-<footer class="site-footer">
-  <p>© 2026 Himanshu Dubey</p>
+<footer>
+  <span>© 2026 Himanshu Dubey</span>
+  <a href="https://github.com/himubey">GitHub</a>
+  <a href="https://x.com/himubeydev">X</a>
+  <a href="https://www.linkedin.com/in/himubeydev/">LinkedIn</a>
+  <a href="https://www.youtube.com/@himubeydev">YouTube</a>
+  <a href="https://himubeydev.medium.com/">Medium</a>
 </footer>
-
+</div>
+<script>console.log('%c Himanshu Dubey %c\n\nHey, fellow curious one. You opened DevTools, which is exactly how I started: taking Macs apart to see what is inside.\n\nNo frameworks here. Just HTML, CSS and a few lines of JS.\nLike what you see? Say hi: himubey.dev@gmail.com','font:700 28px monospace;color:#f9f4e6;background:#212126;padding:4px 10px','');document.getElementById('theme').onclick=function(){var d=document.documentElement,c=d.dataset.theme||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'),n=c=='dark'?'light':'dark';d.dataset.theme=n;try{localStorage.theme=n}catch(e){}}</script>
 </body>
 </html>
