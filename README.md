@@ -53,7 +53,7 @@ I also contribute to **[Nellavio](https://github.com/nellavio/nellavio)**, an op
 
 ## Always learning
 
-Right now I'm going deeper into backend engineering, system design and databases. I recently completed **[AI/ML for Geodata Analysis](https://isrolms.iirs.gov.in/mod/customcert/verify_certificate.php?code=g0F1xkOUwW)** from the Indian Institute of Remote Sensing (IIRS), ISRO.
+Right now I'm going deeper into backend engineering, system design and databases. I recently completed **[AI/ML for Geodata Analysis](https://isrolms.iirs.gov.in/mod/customcert/verify_certificate.php?code=g0F1xkOUwW)** from the Indian Institute of Remote Sensing (IIRS), ISRO, and Citi's **[Technology Software Development Job Simulation](https://www.theforage.com/completion-certificates/8eNRcRqBZM9HLvwGw/2jxESPvorR7fmypXj_8eNRcRqBZM9HLvwGw_6aac5156d9b5474253b41122_1790447217427_completion_certificate.pdf)** on Forage, where I modelled a loan management process in UML, researched ML approaches to credit risk, and built a real-time stock risk visualizer in Java.
 
 ## Say hello
 
