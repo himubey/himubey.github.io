@@ -1,80 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Himanshu Dubey</title>
-  <link rel="stylesheet" href="css/style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Himanshu Dubey</title>
+<meta name="description" content="Himanshu Dubey — full-stack engineer building fast web apps with Next.js and React.">
+<link rel="stylesheet" href="css/style.css">
+<script>try{var t=localStorage.theme;if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
-
-<header class="site-header">
-  <div class="container header-flex">
-    <h1 class="logo">Himanshu Dubey</h1>
-    <nav>
-      <a href="index.html" class="active">Home</a>
-      <a href="#projects">Projects</a>
-      <a href="blog.html">Blog</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
+<div class="wrap">
+<header>
+  <a class="name" href="index.html">Himanshu Dubey</a>
+  <nav>
+    <a href="index.html" aria-current="page">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="#contact">Contact</a>
+    <button id="theme" type="button" aria-label="Toggle dark mode">◐</button>
+  </nav>
 </header>
 
-<main class="container">
-  <section class="intro">
-    <h2>Frontend Developer / Full-Stack Learner</h2>
-    <p>
-      I’m a frontend developer passionate about building clean, accessible user
-      experiences and documenting my journey through writing and content.
-    </p>
-  </section>
- <div class="intro-photo">
-    <img src="images/himanshudubey.webp" alt="Himanshu Dubey">
-  </div>
-  <section class="journey">
-    <h3>My Journey</h3>
-    <p>
-      My journey into tech began in Uttarakhand, India, where I worked as a Macintosh
-      technician at iPrime. That role taught me structured problem-solving and
-      communication.
-    </p>
-    <p>
-      In 2023, I transitioned into web development—starting with HTML, CSS, and
-      JavaScript. Today, I specialize in React and Next.js, while actively learning
-      full-stack development.
-    </p>
+<main>
+  <section class="hero">
+    <img src="images/himanshudubey.webp" alt="Himanshu Dubey" width="84" height="84">
+    <div>
+      <h1>Hey, I'm Himanshu.</h1>
+      <p class="muted">Full-stack engineer. I build fast, scalable web apps with Next.js &amp; React, and write about what I learn.</p>
+    </div>
   </section>
 
-  <section id="projects">
-    <h3>Featured Projects</h3>
+  <p>My path into tech started in Uttarakhand as a Macintosh technician at iPrime, which taught me structured problem-solving. In 2023 I moved into web development, and today I work full-time on full-stack products.</p>
 
-    <article class="project">
-      <h4>Rupzo</h4>
-      <p>
-        Business management platform for freelancers and small businesses.
-      </p>
-      <a href="https://rupzo.in/" target="_blank">Visit →</a>
-    </article>
+  <h2>Latest writing</h2>
+  <ul class="list">
+    <li><a href="https://www.himubey.in/blog/http-head-of-line-blocking">HTTP/3 and QUIC: Demystifying the Shift from HTTP/2 and TCP</a><time datetime="2026-08-20">Aug 20, 2026</time></li>
+    <li><a href="https://www.himubey.in/blog/javascript-temporal-api-replaces-date">JavaScript Temporal API: The End of the Broken Date Object</a><time datetime="2026-03-18">Mar 18, 2026</time></li>
+    <li><a href="https://www.himubey.in/blog/diary-plus-technical-deep-dive">My Notes App for a Forgotten World: Building for Feature Phones</a><time datetime="2026-01-15">Jan 15, 2026</time></li>
+  </ul>
+  <p style="margin-top:12px"><a href="blog.html">All posts →</a></p>
 
-    <article class="project">
-      <h4>Hmachaar</h4>
-      <p>
-        Full-stack e-commerce platform for authentic Indian pickles.
-      </p>
-      <a href="https://www.hmachaar.in/" target="_blank">Visit →</a>
-    </article>
-  </section>
+  <h2>Projects</h2>
+  <ul class="list">
+    <li><span><a href="https://rupzo.in/">Rupzo</a> — business management platform for freelancers and small businesses.</span><small>Next.js</small></li>
+    <li><span><a href="https://www.hmachaar.in/">Hmachaar</a> — e-commerce store for authentic Indian pickles.</span><small>React</small></li>
+    <li><span>Krak — full-stack mock test platform for NEET &amp; JEE prep.</span><small>Full-stack</small></li>
+  </ul>
 
-  <section id="contact">
-    <h3>Get in Touch</h3>
-    <p>Email: <a href="mailto:hello@himubey.in">hello@himubey.in</a></p>
-    <p>YouTube: <a href="https://youtube.com/@himubeydev" target="_blank">@himubeydev</a></p>
-  </section>
+  <h2>Experience</h2>
+  <ul class="list">
+    <li><span>Full-Stack Developer, Emergingevera</span><small>2025 – now</small></li>
+    <li><span>Frontend Developer, Bansal Classes</span><small>2025</small></li>
+    <li><span>Freelance Full-Stack Developer, Homemade Achar</span><small>2024</small></li>
+    <li><span>Macintosh Technician, iPrime</span><small>2020 – 2022</small></li>
+  </ul>
+
+  <h2 id="contact">Contact</h2>
+  <p>Say hi at <a href="mailto:himubey.dev@gmail.com">himubey.dev@gmail.com</a>.</p>
 </main>
 
-<footer class="site-footer">
-  <p>© 2026 Himanshu Dubey</p>
+<footer>
+  <span>© 2026 Himanshu Dubey</span>
+  <a href="https://github.com/himubey">GitHub</a>
+  <a href="https://x.com/himubeydev">X</a>
+  <a href="https://www.linkedin.com/in/himanshudubey24/">LinkedIn</a>
+  <a href="https://www.youtube.com/@himubeydev">YouTube</a>
+  <a href="https://himubeydev.medium.com/">Medium</a>
 </footer>
-
+</div>
+<script>document.getElementById('theme').onclick=function(){var d=document.documentElement,c=d.dataset.theme||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'),n=c=='dark'?'light':'dark';d.dataset.theme=n;try{localStorage.theme=n}catch(e){}}</script>
 </body>
 </html>

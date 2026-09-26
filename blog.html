@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blog — Himanshu Dubey</title>
-  <link rel="stylesheet" href="css/style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blog — Himanshu Dubey</title>
+<link rel="stylesheet" href="css/style.css">
+<script>try{var t=localStorage.theme;if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
-
-<header class="site-header">
-  <div class="container header-flex">
-    <h1 class="logo">Himanshu Dubey</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="blog.html" class="active">Blog</a>
-    </nav>
-  </div>
+<div class="wrap">
+<header>
+  <a class="name" href="index.html">Himanshu Dubey</a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="blog.html" aria-current="page">Blog</a>
+    <a href="index.html#contact">Contact</a>
+    <button id="theme" type="button" aria-label="Toggle dark mode">◐</button>
+  </nav>
 </header>
 
-<main class="container">
-  <h2>Blog</h2>
-
-  <ul class="blog-list">
-    <li>
-      <span class="date">06 Jan 2026</span>
-      <a href="post.html">
-        Master JavaScript Fundamentals: Your Complete Frontend Developer Roadmap
-      </a>
-    </li>
+<main>
+  <h1>Blog</h1>
+  <p class="muted">Notes on web development, JavaScript and the things I build.</p>
+  <ul class="list">
+    <li><a href="https://www.himubey.in/blog/http-head-of-line-blocking">HTTP/3 and QUIC: Demystifying the Shift from HTTP/2 and TCP</a><time datetime="2026-08-20">Aug 20, 2026</time></li>
+    <li><a href="https://www.himubey.in/blog/javascript-temporal-api-replaces-date">JavaScript Temporal API: The End of the Broken Date Object</a><time datetime="2026-03-18">Mar 18, 2026</time></li>
+    <li><a href="https://www.himubey.in/blog/diary-plus-technical-deep-dive">My Notes App for a Forgotten World: Building for Feature Phones</a><time datetime="2026-01-15">Jan 15, 2026</time></li>
+    <li><a href="https://www.himubey.in/blog/javascript-for-frontend-part-1">Master JavaScript Fundamentals: Your Complete Frontend Developer Roadmap</a><time datetime="2026-01-06">Jan 6, 2026</time></li>
   </ul>
 </main>
 
-<footer class="site-footer">
-  <p>© 2026 Himanshu Dubey</p>
+<footer>
+  <span>© 2026 Himanshu Dubey</span>
+  <a href="https://github.com/himubey">GitHub</a>
+  <a href="https://x.com/himubeydev">X</a>
+  <a href="https://www.linkedin.com/in/himanshudubey24/">LinkedIn</a>
+  <a href="https://www.youtube.com/@himubeydev">YouTube</a>
+  <a href="https://himubeydev.medium.com/">Medium</a>
 </footer>
-
+</div>
+<script>document.getElementById('theme').onclick=function(){var d=document.documentElement,c=d.dataset.theme||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'),n=c=='dark'?'light':'dark';d.dataset.theme=n;try{localStorage.theme=n}catch(e){}}</script>
 </body>
 </html>
