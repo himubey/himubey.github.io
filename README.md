@@ -10,68 +10,57 @@
 </p>
 
 <p align="center">
-  <a href="https://himubey.is-a.dev">himubey.is-a.dev</a> ·
+  <a href="https://himubey.is-a.dev">Portfolio</a> ·
   <a href="https://www.himubey.in/blog">Blog</a> ·
-  <a href="https://github.com/himubey">GitHub</a> ·
-  <a href="https://www.linkedin.com/in/himubeydev/">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/himubeydev/">LinkedIn</a> ·
+  <a href="https://x.com/himubeydev">X</a> ·
+  <a href="https://www.youtube.com/@himubeydev">YouTube</a>
 </p>
 
 ---
 
-## About
+## About me
 
-This is my personal portfolio. I once spent my days opening up Macs to find out what was wrong inside, and I built this site the same way: take out everything that isn't needed, and keep what is simple, fast and easy to fix.
+My journey into tech started in Uttarakhand, India, with a screwdriver in my hand. For two and a half years I repaired Macs at an Apple Authorized Reseller, tracking down faults and explaining fixes to the people who owned them. That work taught me to stay patient, think in steps, and care about the person on the other side.
 
-## Principles
+In 2023 I moved from fixing machines to building software. Today I work as a full-stack engineer, taking products from the first idea to something people rely on every day, and I write about what I learn along the way.
 
-- **No frameworks.** Plain HTML and CSS, with no build step and no dependencies.
-- **Almost no JavaScript.** A few lines handle the theme toggle, and that's all.
-- **Light by default.** Two self-hosted variable fonts, one tiny SVG icon, and no trackers or third-party requests.
-- **Easy on the eyes.** Warm cream in light mode, soft charcoal in dark mode. It follows your system setting and remembers your choice.
-- **Content first.** Writing, projects and experience, with nothing in the way.
+## Experience
 
-## Structure
+| Role | Company | When |
+|---|---|---|
+| Full Stack Engineer | Emergingevera | Sep 2025 – now |
+| Frontend Developer & Content Manager | Bansal Classes | Apr – Sep 2025 |
+| Full-Stack Developer | Webwheel Technologies | Jul 2023 – Aug 2025 |
+| Frontend Developer Intern | Webwheel Technologies | Apr – Jun 2023 |
+| Macintosh Technician | Apple Authorized Reseller | Apr 2020 – Oct 2022 |
 
-```
-.
-├── index.html        Home: intro, writing, projects, experience
-├── blog.html         All blog posts
-├── css/style.css     Every style on the site, including both themes
-├── fonts/            Outfit and Google Sans Code (variable, Latin subset)
-├── images/           Profile photo
-├── favicon.svg       Retro pixel "HD" mark
-└── CNAME             Custom domain for GitHub Pages
-```
+## Things I've built
 
-## Run locally
+- **[Rupzo](https://rupzo.in/)**: business management for freelancers and small businesses
+- **[Hmachaar](https://www.hmachaar.in/)**: an online store for authentic Indian pickles
+- **Krak**: a mock test platform for NEET and JEE students
+- **[Microblog](https://github.com/himubey/microblog)**: a fast, simple place to share short updates
+- **[ZIDoc](https://zidoc.online)**: quick tools for images, PDFs and text
 
-There's nothing to install. Open `index.html` in a browser, or serve the folder:
+I also contribute to **[Nellavio](https://github.com/nellavio/nellavio)**, an open-source dashboard starter.
 
-```bash
-python3 -m http.server 8000
-# then visit http://localhost:8000
-```
+## Recent writing
 
-## Customize
+- [HTTP/3 and QUIC: Demystifying the Shift from HTTP/2 and TCP](https://www.himubey.in/blog/http-head-of-line-blocking)
+- [JavaScript Temporal API: The End of the Broken Date Object](https://www.himubey.in/blog/javascript-temporal-api-replaces-date)
+- [My Notes App for a Forgotten World: Building for Feature Phones](https://www.himubey.in/blog/diary-plus-technical-deep-dive)
 
-| What | Where |
-|---|---|
-| Colors (light and dark) | CSS variables at the top of `css/style.css` |
-| Fonts | `@font-face` rules in `css/style.css` |
-| New blog post | Add a `<li>` to the list in `blog.html` and `index.html` |
+## Always learning
 
-## Deploy
+Right now I'm going deeper into backend engineering, system design and databases. I recently completed **[AI/ML for Geodata Analysis](https://isrolms.iirs.gov.in/mod/customcert/verify_certificate.php?code=g0F1xkOUwW)** from the Indian Institute of Remote Sensing (IIRS), ISRO.
 
-The site is served by **GitHub Pages** from the `main` branch. Anything merged into `main` goes live at [himubey.is-a.dev](https://himubey.is-a.dev).
+## Say hello
 
-## Credits
-
-- [Outfit](https://fonts.google.com/specimen/Outfit) and [Google Sans Code](https://fonts.google.com/specimen/Google+Sans+Code), both under the SIL Open Font License
-- Design inspired by the calm, content-first style of [Tania Rascia](https://www.taniarascia.com/)
+I'm always happy to talk about products, ideas or opportunities. Write to me at **[himubey.dev@gmail.com](mailto:himubey.dev@gmail.com)**.
 
 ---
 
 <p align="center">
-  Opened the DevTools console yet? There's a note in there for you.<br>
-  <sub>© 2026 Himanshu Dubey</sub>
+  <sub>Visiting the live site? Open the DevTools console, there's a note in there for you.</sub>
 </p>
