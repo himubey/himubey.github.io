@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="https://himubey.is-a.dev">Portfolio</a> ·
+  <a href="https://www.himubey.in">Website</a> ·
   <a href="https://www.himubey.in/blog">Blog</a> ·
   <a href="https://www.linkedin.com/in/himubeydev/">LinkedIn</a> ·
   <a href="https://x.com/himubeydev">X</a> ·
