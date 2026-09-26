@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="favicon.svg" width="72" height="72" alt="HD">
+  <img src="images/himanshudubey.webp" width="140" alt="Himanshu Dubey">
 </p>
 
 <h1 align="center">Himanshu Dubey</h1>
