@@ -5,7 +5,7 @@
 <h1 align="center">Himanshu Dubey</h1>
 
 <p align="center">
-  Full-stack engineer, formerly fixing Macs.<br>
+  Full-stack engineer who started out debugging macOS.<br>
   Now building products people use every day.
 </p>
 
@@ -21,9 +21,9 @@
 
 ## About me
 
-My journey into tech started in Uttarakhand, India, with a screwdriver in my hand. For two and a half years I repaired Macs at an Apple Authorized Reseller, tracking down faults and explaining fixes to the people who owned them. That work taught me to stay patient, think in steps, and care about the person on the other side.
+My journey into tech started in Uttarakhand, India, deep inside macOS. For two and a half years I worked as a Macintosh Technician at an Apple Authorized Reseller, diagnosing operating system issues, setting up and managing Macs through MDM, and guiding people through software problems. That work taught me to stay patient, think in steps, and care about the person on the other side.
 
-In 2023 I moved from fixing machines to building software. Today I work as a full-stack engineer, taking products from the first idea to something people rely on every day, and I write about what I learn along the way.
+In 2023 I moved from troubleshooting software to building it. Today I work as a full-stack engineer, taking products from the first idea to something people rely on every day, and I write about what I learn along the way.
 
 ## Experience
 
