@@ -17,7 +17,40 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@himubeydev">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="css/style.css?v=2">
+<link rel="preload" href="fonts/outfit.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/google-sans-code.woff2" as="font" type="font/woff2" crossorigin>
+<style>:root{--bg:#f9f4e6;--fg:#2b2925;--muted:#6b6557;--line:#e7dfc9;--accent:#165afd}
+[data-theme=dark]{--bg:#212126;--fg:#e8e6e1;--muted:#a09fa6;--line:#33333a;--accent:#709afe}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#212126;--fg:#e8e6e1;--muted:#a09fa6;--line:#33333a;--accent:#709afe}}
+*{box-sizing:border-box}
+html{color-scheme:light dark}
+@font-face{font-family:Outfit;src:url(fonts/outfit.woff2) format("woff2");font-weight:100 900;font-display:swap}
+@font-face{font-family:"Google Sans Code";src:url(fonts/google-sans-code.woff2) format("woff2");font-weight:300 800;font-display:swap}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 Outfit,system-ui,sans-serif}
+h2,time,small,#theme{font-family:"Google Sans Code",ui-monospace,monospace}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+p a,ul.list li>span a{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;text-decoration-color:color-mix(in srgb,currentColor 45%,transparent)}
+p a:hover,ul.list li>span a:hover{text-decoration-color:currentColor}
+.wrap{max-width:680px;margin:0 auto;padding:0 20px}
+header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:28px 0}
+header .name{color:var(--fg);font-weight:700}
+nav{display:flex;align-items:center;gap:18px;font-size:15px}
+nav a{color:var(--muted)}
+nav a[aria-current]{color:var(--fg)}
+#theme{background:none;border:1px solid var(--line);border-radius:6px;color:var(--fg);cursor:pointer;font-size:14px;padding:3px 8px}
+.hero{display:flex;align-items:center;gap:20px;padding:24px 0 8px}
+.hero img{width:112px;height:112px;border-radius:50%;object-fit:cover}
+h1{font-size:30px;line-height:1.2;margin:0 0 6px}
+h2{font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:48px 0 12px}
+p{margin:0 0 14px}
+.muted{color:var(--muted)}
+ul.list{list-style:none;margin:0;padding:0}
+ul.list li{display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-bottom:1px solid var(--line)}
+ul.list time,ul.list small{color:var(--muted);font-size:14px;white-space:nowrap;font-variant-numeric:tabular-nums}
+footer{margin:64px 0 32px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;display:flex;flex-wrap:wrap;gap:14px}
+footer a{color:var(--muted)}
+@media (max-width:520px){header{flex-direction:column;align-items:flex-start}.hero{flex-direction:column;align-items:flex-start;gap:16px}.hero img{width:88px;height:88px}footer span{flex-basis:100%}ul.list li{flex-direction:column;gap:2px}}</style>
 <script>try{var t=localStorage.theme;if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
