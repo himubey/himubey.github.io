@@ -1,12 +1,23 @@
 # Himanshu Dubey
 
-> Portfolio of Himanshu Dubey, a full-stack engineer who started out debugging macOS and now builds web products with Next.js, React, Node.js and PostgreSQL. The main website and blog are at https://www.himubey.in.
+> Portfolio of Himanshu Dubey, a full-stack software engineer from Uttarakhand, India, who builds web apps with Next.js, React, Node.js, Express and PostgreSQL, and mobile apps with Flutter and Swift (iOS). The main website and blog are at https://www.himubey.in.
 
 ## Pages
 
 - [Portfolio](https://himubey.is-a.dev/): experience, projects, certifications and contact
 - [Main website](https://www.himubey.in/): primary site for Himanshu Dubey
 - [Blog](https://www.himubey.in/blog): articles on web development, JavaScript and networking
+
+## Education
+
+- Master of Computer Applications (MCA), Maharaja Agrasen Himalayan Garhwal University (MAHGU), Pauri Garhwal, Uttarakhand
+- Post Graduate Diploma in Computer Applications (PGDCA), MAHGU
+
+## Currently learning
+
+- Backend engineering with Node.js, Go and Python
+- System design and database management
+- AI/ML for geospatial data
 
 ## Projects
 
