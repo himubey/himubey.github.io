@@ -1,0 +1,30 @@
+# Himanshu Dubey
+
+> Portfolio of Himanshu Dubey, a full-stack engineer who started out debugging macOS and now builds web products with Next.js, React, Node.js and PostgreSQL. The main website and blog are at https://www.himubey.in.
+
+## Pages
+
+- [Portfolio](https://himubey.is-a.dev/): experience, projects, certifications and contact
+- [Main website](https://www.himubey.in/): primary site for Himanshu Dubey
+- [Blog](https://www.himubey.in/blog): articles on web development, JavaScript and networking
+
+## Projects
+
+- [Rupzo](https://rupzo.in/): business management platform for freelancers and small businesses (Next.js)
+- [Hmachaar](https://www.hmachaar.in/): e-commerce store for authentic Indian pickles (React)
+- Krak: full-stack mock test platform for NEET and JEE prep
+- [Microblog](https://github.com/himubey/microblog): a fast, simple place to share short updates (Astro)
+- [ZIDoc](https://zidoc.online): file tools for images, PDFs and text
+- [Nellavio](https://github.com/nellavio/nellavio): open-source Next.js dashboard starter with auth, i18n and RBAC
+
+## Profiles
+
+- [GitHub](https://github.com/himubey)
+- [LinkedIn](https://www.linkedin.com/in/himubeydev/)
+- [X](https://x.com/himubeydev)
+- [YouTube](https://www.youtube.com/@himubeydev)
+- [Medium](https://himubeydev.medium.com/)
+
+## Contact
+
+- Email: himubey.dev@gmail.com

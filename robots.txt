@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://himubey.is-a.dev/sitemap.xml
