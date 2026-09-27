@@ -5,8 +5,9 @@
 <h1 align="center">Himanshu Dubey</h1>
 
 <p align="center">
-  Full-stack engineer who started out debugging macOS.<br>
-  Now building products people use every day.
+  Full-stack software engineer from Uttarakhand, India.<br>
+  I build web apps with Next.js, React, Node.js, Express and PostgreSQL,<br>
+  and mobile apps with Flutter and Swift. I also write about what I learn along the way.
 </p>
 
 <p align="center">
